@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="F:\Backup\LeonBlade\Developer\CM3\Core\Core.csproj" />
+    <ProjectReference Include="..\..\CM3\Core\Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

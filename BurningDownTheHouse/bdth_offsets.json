@@ -1,11 +1,11 @@
 ﻿{
-  "GameVersion": "2020.03.27.0000.0000",
+  "GameVersion": "2020.05.12.0000.0000",
   "OffsetVersion": 1,
-  "IsHousingOn": "1CB4CA3",
-  "IsItemSelected": "1C5CB8C",
-  "PlaceAnywhere": "565510",
-  "WallPartition": "565FC7",
-  "ActiveItem": "1C68A60",
-  "ActiveItemPosition": "40,18,50",
+  "IsHousingOn": "1C4A813",
+  "IsItemSelected": "1C4A813",
+  "PlaceAnywhere": "588FD0",
+  "WallPartition": "589A87",
+  "ActiveItem": "1BFE648",
+  "ActiveItemPosition": "40,80,110",
   "MousePosition": "1CCD370"
 }

@@ -12,7 +12,8 @@ namespace BurningDownTheHouse.Services
 	public class OffsetsService : IService
 	{
 		private static readonly string FileName = "bdth_offsets.json";
-		private static readonly string Url = $"https://raw.githubusercontent.com/LeonBlade/BurningDownTheHouse/master/BurningDownTheHouse/{FileName}";
+		//private static readonly string Url = $"https://raw.githubusercontent.com/LeonBlade/BurningDownTheHouse/master/BurningDownTheHouse/{FileName}";
+		private static readonly string Url = $"https://raw.githubusercontent.com/Bluefissure/BurningDownTheHouse/cn/BurningDownTheHouse/{FileName}";
 		private static readonly string LocalOffsetFile = Path.Combine(Environment.CurrentDirectory, FileName);
 
 		public OffsetFile Offsets { get; private set; } = null;
@@ -34,7 +35,7 @@ namespace BurningDownTheHouse.Services
 			}
 			catch (Exception ex)
 			{
-				Log.Write(new Exception("Couldn't load offset file", ex), "OffsetService");
+				Log.Write(new Exception("Couldn't load offset file", ex), "OffsetService", Log.Severity.Warning);
 			}
 
 			// Fetch latest offsets from online.
@@ -49,7 +50,7 @@ namespace BurningDownTheHouse.Services
 				}
 				catch (HttpRequestException ex)
 				{
-					Log.Write(new Exception("Couldn't fetch offsets from online!", ex), "OffsetService");
+					Log.Write(new Exception("Couldn't fetch offsets from online!", ex), "OffsetService", Log.Severity.Warning);
 				}
 			}
 
