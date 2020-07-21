@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurningDownTheHouse", "BurningDownTheHouse\BurningDownTheHouse.csproj", "{0B7649F0-D3EB-4FB2-8436-531F23A8A56C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "F:\Backup\LeonBlade\Developer\CM3\Core\Core.csproj", "{A6B120DB-11AB-4771-A11F-76E8D3B71868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\CM3\Core\Core.csproj", "{A6B120DB-11AB-4771-A11F-76E8D3B71868}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,7 +13,8 @@ namespace BurningDownTheHouse.Services
 	{
 		private static readonly string FileName = "bdth_offsets.json";
 		//private static readonly string Url = $"https://raw.githubusercontent.com/LeonBlade/BurningDownTheHouse/master/BurningDownTheHouse/{FileName}";
-		private static readonly string Url = $"https://raw.githubusercontent.com/Bluefissure/BurningDownTheHouse/cn/BurningDownTheHouse/{FileName}";
+		//private static readonly string Url = $"https://raw.githubusercontent.com/Bluefissure/BurningDownTheHouse/cn/BurningDownTheHouse/{FileName}";
+		private static readonly string Url = $"https://gitee.com/bluefissure/BurningDownTheHouse/raw/cn/BurningDownTheHouse/bdth_offsets.json";
 		private static readonly string LocalOffsetFile = Path.Combine(Environment.CurrentDirectory, FileName);
 
 		public OffsetFile Offsets { get; private set; } = null;
